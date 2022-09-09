@@ -17,7 +17,7 @@ public class Trigger : MonoBehaviour
     }
 
     // Trigger function
-    void OnTriggerEnter(Collider other, GameObject text)
+    void OnTriggerEnter(Collider other)
     {
         Renderer render = GetComponent<Renderer>();
         render.material.color = Color.green;
