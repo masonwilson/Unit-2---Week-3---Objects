@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
-    public GameObject Child;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +21,5 @@ public class Trigger : MonoBehaviour
     {
         Renderer render = GetComponent<Renderer>();
         render.material.color = Color.green;
-        Child.SetActive(false);
     }
 }
